@@ -2,19 +2,20 @@ import PropTypes from 'prop-types';
 import css from './Statistic-section.module.css';
 
 function StatisticSection ({title, stats}) {
-  // const elements = 
+  const element = stats.map(statsItem => {
+    return (
+      <li className={css.item} key = {statsItem.id}>
+<span className={css.label}>{statsItem.label}</span>
+<span className={css.percentage}>{statsItem.percentage}%</span>
+</li>
+    )
+  })
+
+
   return (
     <div>
       {title && <h2>{title}</h2>}
-      <ul>{stats.map(statsItem => {
-        return (
-          <li className={css.item} key = {statsItem.id}>
-  <span className={css.label}>{statsItem.label}</span>
-  <span className={css.percentage}>{statsItem.percentage}%</span>
-</li>
-        )
-      })}</ul>
-    
+      <ul>{element}</ul>
   </div>
   )
 }
