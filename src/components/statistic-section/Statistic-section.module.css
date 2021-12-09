@@ -1,0 +1,21 @@
+ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.item {
+   padding: 20px;
+   border: solid 1px black;
+   background-color: teal;
+   color: #ffff;
+ };
+
+ .item:hover {
+   background-color: thistle;
+   /* transition-duration: 250ms; */
+ }
+
+

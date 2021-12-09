@@ -1,0 +1,19 @@
+.status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .online {
+    background-color: rgb(19, 141, 39);
+  }
+  .notOnline {
+    background-color: rgb(211, 69, 69);
+  }
+  .image {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 20%;
+    margin-right: 15px;
+  }

@@ -1,0 +1,43 @@
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile {
+    margin: 0 auto;
+    width: 350px;
+    border: solid 1px black;
+}
+
+.avatar {
+    /* margin: 0 auto; */
+    width: 300px;
+}
+.name {
+    margin-bottom: 10px;
+}
+
+.tag {
+    margin-bottom: 10px;
+}
+
+.location {
+    margin-bottom: 10px;
+}
+.description {
+    text-align: center;
+    /* margin-bottom: 40px; */
+}
+
+.stats {
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-top: solid 1px;
+}
